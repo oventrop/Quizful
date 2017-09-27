@@ -24,9 +24,11 @@ public class Main {
 		
 		EditProfile edit = new EditProfile(driver);
 		edit.editMainPrefs();
-		edit.addAvatar();
+			
 		edit.editConfidential();
+		
 		edit.editNotifications();
+		edit.addAvatar();
 		edit.saveInfo();
 	}
 
